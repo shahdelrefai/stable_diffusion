@@ -43,4 +43,5 @@ information to generate new images that look like it's drawn by this artist.
 ### Color Distribution
 Generating color histogram for red, green, blue in pixels we get their frequencies or count. Normalizing this histogram we obtain the probabilty for each color intensity or PMF.
 > colorDistribution.py : Takes an image, outputs PMF and CDF of the each color channel.
+
 > conditionalProbability.py : Generates a joint histogram between two color channels to see dependant probabilities of a color given that the other color has acertain intensity.
